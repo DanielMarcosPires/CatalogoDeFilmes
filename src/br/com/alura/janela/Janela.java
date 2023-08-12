@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Janela {
-    private JFrame jframe = new JFrame();
+    private final JFrame jframe = new JFrame();
 
     public Janela(int width, int height, String title, List<Map<String, String>> listaDeFilmes) {
         jframe.setTitle(title);
